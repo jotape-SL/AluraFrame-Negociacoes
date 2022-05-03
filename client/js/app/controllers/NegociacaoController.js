@@ -11,13 +11,13 @@ class NegociacaoController {
     };
     adiciona(event) {
         event.preventDefault();
-        let helper = new FormataData();
-        const data = helper.textoParaData(this.#inputData.value);
-        console.log(helper.dataParaTexto(data));
+        const data = FormataData.textoParaData(this.#inputData.value);
+        console.log(FormataData.dataParaTexto(data));
         let negociacao = new Negociacao(
             data,
             this.#inputQuantidade.value,
             this.#inputValor.value,
         );
+        console.log(negociacao);
     }
 }
