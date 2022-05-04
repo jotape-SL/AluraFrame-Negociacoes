@@ -13,13 +13,23 @@ class NegociacaoController {
     };
     adiciona(event) {
         event.preventDefault();
+        this.#listaNegociacoes.adiciona(this.#criaNegociacao());
+        this.#limpaFormulario();
+        this.#inputData.focus();
+
+        console.log(this.#listaNegociacoes.negociacoes)
+    }
+
+    #criaNegociacao() {
         const data = FormataData.textoParaData(this.#inputData.value);
-        console.log(FormataData.dataParaTexto(data));
-        let negociacao = new Negociacao(
+        return new Negociacao(
             data,
             this.#inputQuantidade.value,
             this.#inputValor.value,
         );
-        this.#listaNegociacoes.adiciona(negociacao);
+    }
+
+    #limpaFormulario() {
+        document.querySelector(".form").reset()
     }
 }
