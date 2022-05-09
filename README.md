@@ -1,4 +1,4 @@
-# AluraFrame/Negociacoes
+# AluraFrame/Negociações
 
 Feito para concretizar negociações, informando data, quantidade e valor, exibindo as informações em uma tabela, um projeto concretizado a partir de um curso da alura voltado ao JavaScript
 
