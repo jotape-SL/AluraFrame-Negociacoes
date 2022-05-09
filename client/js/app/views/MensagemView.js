@@ -1,22 +1,16 @@
 const btnAdd = document.querySelector("#btnAdd");
 const msgAdd = document.querySelector("#mensagemView");
-const pMsg = document.querySelector(".alert .alert-info ")
 
-
-class MensagemView {
-    #elemento;
+class MensagemView extends View {
     constructor(elemento) {
-        this.#elemento = elemento;
+        super(elemento);
     }
 
-    #template(model) {
-        return model.texto ? `<p class="alert alert-info" id="msgAdd">${model.texto}</p>` : `<p id="msgAdd"></p>`;
+    template(model) {
+        return model.texto ? `<p class="alert alert-info">${model.texto}</p>` : `<p></p>`;
     }
+};
 
-    update(model) {
-        this.#elemento.innerHTML = this.#template(model);
-    }
-}
 btnAdd.addEventListener("click", () => {
     msgAdd.classList.remove("remover");
     msgAdd.classList.remove("removerReal");
