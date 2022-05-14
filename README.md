@@ -14,7 +14,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:jotape-SL/AluraFrame-Negociacoes.git
+$ git clone https://github.com/jotape-SL/AluraFrame-Negociacoes.git
 
 # Abra o terminal e entre na pasta
 $ cd ./AluraFrame-Negociacoes.git
