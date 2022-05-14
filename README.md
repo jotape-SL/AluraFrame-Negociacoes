@@ -9,15 +9,15 @@ Feito para concretizar negociações, informando data, quantidade e valor, exibi
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), Editor de texto de sua preferência.
 
-#### 🎲 Rodando o Frontend
+#### 🎲 Rodando o projeto
 
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:luanaggoncalves/technicalshare.frontend.git
+$ git clone git@github.com:jotape-SL/AluraFrame-Negociacoes.git
 
 # Abra o terminal e entre na pasta
-$ cd ./technicalshare.frontend
+$ cd ./AluraFrame-Negociacoes.git
 
 # Abra o arquivo index.html no navegador de sua preferência
 ```
@@ -36,7 +36,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## ✒️ Autores
 
 * João Pedro de Sousa Cruz - *Front-end / Back-end* - [Jotape_SL](https://github.com/jotape-SL)
-* Alura
+* Alura - *Idealização*
 
 
 ## 📄 Licença
