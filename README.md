@@ -21,6 +21,9 @@ $ cd ./AluraFrame-Negociacoes.git
 
 # Abra o arquivo index.html no navegador de sua preferência
 ```
+## 🕸 Link para o site ``(Deploy feito pelo Vercel)``
+
+- [AluraFrame](https://alura-frame-negociacoes.vercel.app/)
 
 ---
 
