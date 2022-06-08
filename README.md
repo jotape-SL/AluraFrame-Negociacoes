@@ -32,7 +32,7 @@ $ cd ./AluraFrame-Negociacoes.git
 As seguintes ferramentas foram usadas na construção do projeto:
 
 
-- **[HTML](https://www.w3.org/html/)**
+- **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
 - **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
 
 ## ✒️ Autores
